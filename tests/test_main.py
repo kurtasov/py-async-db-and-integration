@@ -1,5 +1,5 @@
 from app.main import read_tasks_for_day
-from fastapi import Response, Depends
+from fastapi import Response
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 import pytest
 
