@@ -22,7 +22,7 @@ async def get_async_session() -> AsyncSession:
 
 @pytest.mark.asyncio
 async def test_main(get_async_session):
-    mock_url = "https://isdayoff.ru/2025-05-06"
+    # mock_url = "https://isdayoff.ru/2025-05-06"  TODO: подменить вызываемый ресурс
     mock_response_data = "1"
 
     async def mock_get(*args, **kwargs):
